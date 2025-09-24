@@ -9,7 +9,7 @@
     "start": "next start",
     "lint": "eslint",
     "prepare": "husky",
-    "preinstall": "node ./scripts/check-pnpm.js"
+    "preinstall": "node ./check-pnpm.js"
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
