@@ -1,25 +1,23 @@
-import path from "path";
-
 export const routes = {
   home: {
-    path: "/",
-    type: "public",
+    path: '/',
+    type: 'public',
     isPrivate: false,
-    title: "Home",
-    icon: "home",
+    title: 'Home',
+    icon: 'home',
   },
   products: {
-    path: "/products",
-    type: "public",
+    path: '/products',
+    type: 'public',
     isPrivate: false,
-    title: "Products",
-    icon: "box",
+    title: 'Products',
+    icon: 'box',
   },
   productDetails: {
     path: (slug: string) => `/products/${slug}`,
-    type: "public",
+    type: 'public',
     isPrivate: false,
-    title: "Product Details",
-    icon: "info",
+    title: 'Product Details',
+    icon: 'info',
   },
 };
