@@ -1,6 +1,6 @@
 import { Icon } from '@/shared/components/Icon';
 
-export default function Home() {
+export default function Home(props) {
   return (
     <div className="">
       <Icon name="LeafIcon" className="h-6 w-6 text-blue-500" />
