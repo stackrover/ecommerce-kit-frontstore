@@ -9,7 +9,8 @@
     "start": "next start",
     "lint": "eslint",
     "prepare": "husky",
-    "preinstall": "node ./check-pnpm.js"
+    "preinstall": "node ./check-pnpm.js",
+    "tsc:check": "tsc --noEmit"
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
